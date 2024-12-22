@@ -1,0 +1,82 @@
+<html>
+    <head>
+        <link rel = "stylesheet" type = "text/css" href = "style_main_page.css"
+        <meta charset="UTF-8">
+
+    </head>
+    <body id="body">
+        
+
+        <div class="topnav">
+          <button id="openbtn" class="openbtn" onclick="openNav()">&#9776;</button>
+          
+          <a class="homeButton" href="main_site.html">&#8962;</a>
+        </div>
+        
+        
+        <div class="header">
+            <h1>Threats</h1>
+            
+        </div>
+        <div class="information1">
+            <h2>Malware and Cyberattacks</h2>
+            <p>Viruses: Software designed to corrupt or destroy data.</p>
+            <p>Spyware: Tools that steal personal information.</p>
+            <p>Ransomware: Malicious programs that lock your files and demand payment for their release.</p>
+        </div>
+        <div class="information2">
+            <h2>Scams and Fraud</h2>
+            <p>Fake Marketplaces: Vendors claiming to sell goods or services but disappearing after payment.</p>
+            <p>Phishing Sites: Fake websites designed to steal login credentials or financial information.</p>
+            <p>Fraudulent Services: Offering illegal services (like hacking or document forgery) but failing to deliver.</p>
+        </div>
+        <div class="information3">
+            <h2>Legal Risks</h2>
+            <p>Accidentally Accessing Illegal Content: Some links may lead to prohibited material, such as illicit trade, without clear warning.</p>
+            <p>Surveillance: Law enforcement monitors the Dark Web for criminal activity, and even innocent users may attract scrutiny.</p>
+            <p>Crossing Jurisdictions: Laws vary by country, and what’s legal in one location may not be in another.</p>
+        </div>
+        <div class="information4">
+            <h2>Loss of Anonymity</h2>
+            <p>Tracking Scripts: Some sites may use malicious scripts to identify and track users.</p>
+            <p>Poor Configuration: Misconfiguring tools like Tor or using them without additional protections, such as a VPN, can expose your identity.</p>
+            <p>Social Engineering: Sharing personal information, even unintentionally, can reveal your identity.</p>
+        </div>
+        <div class="information5">
+            <h2>Exposure to Disturbing Content</h2>
+            <p>Violent or Graphic Material: Images or videos that are deeply unsettling.</p>
+            <p>Hate Speech: Forums promoting harmful ideologies.</p>
+            <p>Exploitation: Illegal trade in sensitive or abusive materials.</p>
+        </div>
+        
+        <div id="mySidepanel" class="sidepanel">
+            <a href="javascript:void(0)" id="closebtn" class="closebtn" onclick="closeNav()">X</a>
+            <a href="main_site.html">Home</a>
+            <a href="TheDifferentWebs.html">The different Webs</a>
+            <a href="howToEnter.html">How to enter the Darkweb</a>
+            <a href="threats.html">Threats</a>
+            <a href="howToProtect.html">How to protect yourself</a>
+            <a href="funFacts.html">Fun facts</a>
+            <a href="downloads.html">Downloads</a>
+        </div>
+          
+  
+          
+          
+        <script>
+          function openNav() {
+            document.getElementById("mySidepanel").style.width = "25%";
+            document.getElementById("openbtn").style.visibility='hidden' 
+          }
+          
+          function closeNav() {
+            document.getElementById("mySidepanel").style.width = "0";
+            document.getElementById("openbtn").style.visibility='visible' 
+
+          }
+          
+          
+        </script>
+          
+    </body>
+</html>

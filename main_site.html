@@ -1,0 +1,60 @@
+<html>
+    <head>
+        <link rel = "stylesheet" type = "text/css" href = "style_main_page.css"
+        <meta charset="UTF-8">
+
+
+    </head>
+    <body id="body">
+
+        <div class="topnav">
+          <button id="openbtn" class="openbtn" onclick="openNav()">&#9776;</button>
+          
+          <a class="homeButton" href="main_site.html">&#8962;</a>
+        </div>
+        
+        <div class="header">
+            <h1>The Darkweb</h1>
+        </div>
+        
+        <div class="information1">
+            <h2>A Hidden World</h2>
+            <p>The Dark Web is a concealed part of the internet, accessible only through specialized software like Tor. Unlike the surface web, which is indexed by search engines, the Dark Web operates in secrecy, creating a space where privacy and anonymity reign. It is often misunderstood, known as much for its dangers as for its potential benefits.</p>
+        </div>
+        <div class="information2">
+            <h2>What Makes the Dark Web Unique?</h2>
+            <p>The Dark Web operates on a hidden layer of the internet, using specialized servers and routing protocols to ensure privacy and anonymity. At its foundation is the Tor network, a type of subnet that runs parallel to the traditional internet. This subnet employs onion routing, a technique designed to obscure the identities of both users and servers. In onion routing, data packets are encrypted in multiple layers before being transmitted. When a user accesses a site on the Dark Web, the data is sent through a network of nodes, each acting as a relay. At every hop in the routing path, a layer of encryption is decrypted to reveal the next destination. This process continues until the data reaches its endpoint, such as a server hosting a ".onion" website. Crucially, each node only knows the preceding and following node, ensuring no single point has the full routing information. The servers hosting Dark Web sites are configured differently from surface web servers. They hide their physical location using technologies like Tor Hidden Services. These servers operate behind layers of encryption and use decentralized communication protocols to ensure anonymity. Unlike standard DNS routing that maps domain names to IP addresses, ".onion" domains rely on cryptographic keys to establish trust and verify authenticity. This intricate system of routing and server operation creates a private, encrypted ecosystem within the internet. It's a space where communication can occur with minimal risk of surveillance or interference, making it both a tool for privacy-conscious users and a target of controversy.</p>
+        </div>
+        
+        <div id="mySidepanel" class="sidepanel">
+            <a href="javascript:void(0)" id="closebtn" class="closebtn" onclick="closeNav()">X</a>
+            <a href="main_site.html">Home</a>
+            <a href="TheDifferentWebs.html">The different Webs</a>
+            <a href="howToEnter.html">How to enter the Darkweb</a>
+            <a href="threats.html">Threats</a>
+            <a href="howToProtect.html">How to protect yourself</a>
+            <a href="funFacts.html">Fun facts</a>
+            <a href="downloads.html">Downloads</a>
+        </div>
+          
+        
+        
+          
+          
+        <script>
+          function openNav() {
+            document.getElementById("mySidepanel").style.width = "25%";
+            document.getElementById("openbtn").style.visibility='hidden' 
+          }
+          
+          function closeNav() {
+            document.getElementById("mySidepanel").style.width = "0";
+            document.getElementById("openbtn").style.visibility='visible' 
+
+          }
+          
+          
+        </script>
+          
+    </body>
+</html>

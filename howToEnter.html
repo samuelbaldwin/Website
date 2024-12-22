@@ -1,0 +1,76 @@
+<html>
+    <head>
+        <link rel = "stylesheet" type = "text/css" href = "style_main_page.css"
+        <meta charset="UTF-8">
+
+    </head>
+    <body id="body">
+
+        <div class="topnav">
+          <button id="openbtn" class="openbtn" onclick="openNav()">&#9776;</button>
+          
+          <a class="homeButton" href="main_site.html">&#8962;</a>
+        </div>
+        
+        <div class="header">
+            <h1>How to enter the Darkweb</h1>
+            
+        </div>
+        
+        <div class="information1">
+            <h2>Disclaimer</h2>
+            <p>The Dark Web is a concealed part of the internet, accessible only through specialized software like Tor. Unlike the surface web, which is indexed by search engines, the Dark Web operates in secrecy, creating a space where privacy and anonymity reign. It is often misunderstood, known as much for its dangers as for its potential benefits.</p>
+        </div>
+
+        <div class="information2">
+            <h2>Step 1: Understanding the Dark Web</h2>
+            <p>The Dark Web is a hidden part of the internet, not indexed by search engines and accessible only through specialized tools like the Tor browser. It relies on "onion routing" which encrypts and anonymizes web traffic by bouncing it through multiple servers. This creates a layer of privacy not available on the surface web. Unlike the surface web, the Dark Web hosts websites with ".onion" domains, which are intentionally concealed to protect user and server identities. While it's often associated with illegal activities, the Dark Web also serves legitimate purposes, such as enabling free speech in oppressive regimes and protecting privacy for whistleblowers and journalists. To enter this space responsibly, it's essential to recognize its dual nature-providing both opportunities for anonymity and risks like malware, scams, and illegal content. Understanding its basic structure and purpose will help you navigate it safely.</p>
+        </div>
+        <div class="information3">
+            <h2>Step 2: Download and Install Tor</h2>
+            <p>1)   Visit the Tor Project Website: Start by visiting the official Tor Project website. Be cautious to ensure you are on the legitimate site to avoid malicious downloads.</p>
+            <p>2)   Download the Tor Browser: The Tor browser is your gateway to the Dark Web. It is built on Firefox but enhanced with features to anonymize your activities.</p>
+            <p>3)  Install and Launch: Follow the installation instructions for your operating system. Once installed, launch the browser, and you are ready to connect to the Tor network. You can find the Link to the Download under "Downloads"</p>
+        </div>
+        <div class="information4">
+            <h2>Step 3: Connect to the Tor Network</h2>
+            <p>Once you open the Tor browser, it will automatically connect to the Tor network. This process encrypts your internet traffic and routes it through multiple servers, making it nearly impossible to trace your activity back to you.</p>
+        </div>
+        <div class="information5">
+            <h2>Step 4: Navigating the Dark Web</h2>
+            <p>Access .onion Websites: Websites on the Dark Web have ".onion" domains, which can only be accessed through Tor.</p>
+            <p>Find Reliable Directories: Use trusted directories like "The Hidden Wiki" to find .onion links. Exercise caution, as not all links are safe or legal.</p>
+            <p>Stick to Legitimate Content: The Dark Web contains a mix of legal and illegal content. Be mindful of the sites you visit and their potential risks.</p>
+        </div>
+
+        <div id="mySidepanel" class="sidepanel">
+            <a href="javascript:void(0)" id="closebtn" class="closebtn" onclick="closeNav()">X</a>
+            <a href="main_site.html">Home</a>
+            <a href="TheDifferentWebs.html">The different Webs</a>
+            <a href="howToEnter.html">How to enter the Darkweb</a>
+            <a href="threats.html">Threats</a>
+            <a href="howToProtect.html">How to protect yourself</a>
+            <a href="funFacts.html">Fun facts</a>
+            <a href="downloads.html">Downloads</a>
+        </div>
+          
+ 
+          
+          
+        <script>
+          function openNav() {
+            document.getElementById("mySidepanel").style.width = "25%";
+            document.getElementById("openbtn").style.visibility='hidden' 
+          }
+          
+          function closeNav() {
+            document.getElementById("mySidepanel").style.width = "0";
+            document.getElementById("openbtn").style.visibility='visible' 
+
+          }
+          
+          
+        </script>
+          
+    </body>
+</html>
